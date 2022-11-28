@@ -30,7 +30,7 @@ jobs:
           add: "token-transformers/styled-dictionary"
           push: true
           branch: ${{ github.head_ref }}
-      - name: Transform Figma Tokens to Styled Dictionary
+      - name: Transform Styled Dictionary to Chakra theme
         run: yarn transform-chakra
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
