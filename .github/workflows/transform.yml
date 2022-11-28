@@ -1,0 +1,29 @@
+name: Transform figma tokens
+on:
+  push:
+    branches:
+      - main
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./token-transformers
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Install dependencies
+        run: yarn install
+      - name: Transform tokens
+        run: yarn transform
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GitHub Actions
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "chore: update tokens"
+          add: "tokens"
+          push: true
+          branch: ${{ github.head_ref }}
