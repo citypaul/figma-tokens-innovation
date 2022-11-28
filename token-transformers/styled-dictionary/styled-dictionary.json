@@ -162,7 +162,7 @@
       "failedToResolve": true
     }
   },
-  "Background": {
+  "background": {
     "Primary": {
       "value": "#131922",
       "type": "color"
@@ -172,7 +172,7 @@
       "type": "color"
     }
   },
-  "Brand": {
+  "brand": {
     "Primary": {
       "value": "#4F358B",
       "type": "color"
@@ -182,7 +182,7 @@
       "type": "color"
     }
   },
-  "Font": {
+  "font": {
     "Primary": {
       "value": "#FFFFFF",
       "type": "color"
