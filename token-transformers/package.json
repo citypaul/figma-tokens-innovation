@@ -4,9 +4,18 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "token-transformer": "^0.0.27"
   },
   "scripts": {
-    "transform": "token-transformer ../tokens.json ./styled-dictionary/styled-dictionary.json"
+    "transform-styled-dictionary": "token-transformer ../tokens.json ./styled-dictionary/styled-dictionary.json",
+    "transform-chakra": "node ./chakra/chakra-transform.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
   }
 }
