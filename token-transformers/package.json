@@ -11,7 +11,7 @@
     "token-transformer": "^0.0.27"
   },
   "scripts": {
-    "transform": "token-transformer ../tokens.json ./styled-dictionary/styled-dictionary.json",
+    "transform-styled-dictionary": "token-transformer ../tokens.json ./styled-dictionary/styled-dictionary.json",
     "transform-chakra": "node ./chakra/chakra-transform.js"
   },
   "devDependencies": {
