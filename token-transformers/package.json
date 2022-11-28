@@ -12,7 +12,7 @@
   },
   "scripts": {
     "transform": "token-transformer ../tokens.json ./styled-dictionary/styled-dictionary.json",
-    "transform-chakra": "ts-node ./chakra/chakra-transform.ts"
+    "transform-chakra": "node ./chakra/chakra-transform.js"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
