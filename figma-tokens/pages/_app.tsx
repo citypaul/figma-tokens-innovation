@@ -9,7 +9,12 @@ const colors = {
   },
 };
 
-export const theme = extendTheme({ colors });
+export const theme = extendTheme({
+  colors,
+  blur: {
+    none: "10px",
+  },
+});
 
 function MyApp({ Component, pageProps }) {
   return (
