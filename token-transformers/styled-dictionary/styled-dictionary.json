@@ -163,36 +163,32 @@
     }
   },
   "background": {
-    "Primary": {
+    "primary": {
       "value": "#131922",
       "type": "color"
     },
-    "Secondary": {
+    "secondary": {
       "value": "#1F262F",
       "type": "color"
     }
   },
   "brand": {
-    "Primary": {
+    "primary": {
       "value": "#4F358B",
       "type": "color"
     },
-    "Secondary": {
+    "secondary": {
       "value": "#B392FF",
       "type": "color"
     }
   },
   "font": {
-    "Primary": {
+    "primary": {
       "value": "#FFFFFF",
       "type": "color"
     },
-    "Sencondary": {
+    "secondary": {
       "value": "#F5F5F5",
-      "type": "color"
-    },
-    "Secondary": {
-      "value": "#FFFFFF",
       "type": "color"
     }
   },
