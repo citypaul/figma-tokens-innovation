@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { FormLabel, Heading, useTheme } from "@chakra-ui/react";
+import Head from "next/head";
 import {
   Banner,
   Button,
@@ -12,10 +12,6 @@ import {
 } from "../components";
 
 export default function Home() {
-  const theme = useTheme();
-
-  console.log("theme:", theme);
-
   return (
     <>
       <Head>
