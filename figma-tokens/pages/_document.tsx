@@ -7,7 +7,7 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body style={{ backgroundColor: "lightgrey" }}>
           {/* 👇 Here's the script */}
           {/* <ColorModeScript initialColorMode={theme.config.initialColorMode} /> */}
           <Main />
