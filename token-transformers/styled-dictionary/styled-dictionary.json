@@ -577,8 +577,9 @@
         "type": "color"
       },
       "500": {
-        "value": "#805ad5",
-        "type": "color"
+        "value": "#000",
+        "type": "color",
+        "description": "805ad5"
       },
       "600": {
         "value": "#805ad5",
