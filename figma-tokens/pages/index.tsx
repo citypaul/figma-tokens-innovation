@@ -1,9 +1,10 @@
 import Head from "next/head";
-import { FormLabel, useTheme } from "@chakra-ui/react";
+import { FormLabel, Heading, useTheme } from "@chakra-ui/react";
 import {
   Banner,
   Button,
   ContentWrapper,
+  Footer,
   Form,
   Header,
   Input,
@@ -34,6 +35,9 @@ export default function Home() {
         <main>
           <ContentWrapper>
             <Form>
+              <Heading size="md" color="purple.500" mb={4}>
+                Contact details
+              </Heading>
               <FormLabel>Work number</FormLabel>
               <Input />
               <FormLabel>Home number</FormLabel>
@@ -44,7 +48,7 @@ export default function Home() {
         </main>
 
         <footer>
-          <ContentWrapper>FOOTER</ContentWrapper>
+          <Footer />
         </footer>
       </PageWrapper>
     </>

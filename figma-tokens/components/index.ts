@@ -5,3 +5,4 @@ export { Button } from "./button";
 export { Form } from "./form";
 export { Banner } from "./banner";
 export { Header } from "./header";
+export { Footer } from "./footer";
